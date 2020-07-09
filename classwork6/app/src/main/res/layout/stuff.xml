@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/back"
+  >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="133dp"
+        android:layout_height="396dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/p3"
+        app:civ_border_color="#F44336"
+        app:civ_border_width="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/amaranth_bold_italic"
+        android:text="511"
+        android:textColor="#F4F2F6"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/pokemonNameTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/amaranth_bold_italic"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#F4F2F6"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/amaranth"
+        android:text="pokemon name :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/amaranth"
+        android:text="total power :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Info..."
+        android:layout_marginStart="250dp"
+        android:textSize="15sp"
+        android:textColor="#F44336"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/amaranth"
+        />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F6F6F6"
+        android:layout_marginTop="195dp"
+        />
+
+</RelativeLayout>
